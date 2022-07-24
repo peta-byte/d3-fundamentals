@@ -1,0 +1,26 @@
+.axis .domain {
+  stroke: none;
+}
+
+.x line {
+  stroke: white;
+}
+
+button {
+  outline: none;
+  color: #555;
+  border-color: #eee;
+  background: #fefefe;
+  padding: 3px 10px;
+  font-family: Avenir;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f7f7f7;
+}
+
+button:focus {
+  background: #e7e7e7;
+}

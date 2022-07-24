@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+svg {
+  border: 1px solid grey;
+}
+
+svg > g {
+  border: 1px solid grey;
+}
+
+button {
+  outline: none;
+  color: #555;
+  border-color: #eee;
+  background: #fefefe;
+  padding: 3px 10px;
+  font-family: Avenir;
+  transition: all 200ms;
+}
+
+button:hover {
+  background: #f7f7f7;
+}
+
+button:focus {
+  background: #e7e7e7;
+}
