@@ -33,7 +33,7 @@ interface BarChartData {
 export class BarChartComponent implements OnInit, OnChanges {
   @Input() rawData: MovieData[] = [];
   barChartData: BarChartData[] = [];
-  margin = { top: 40, right: 40, bottom: 40, left: 40 };
+  margin = { top: 90, right: 40, bottom: 40, left: 40 };
   width = 800 - this.margin.left - this.margin.right;
   height = 700 - this.margin.top - this.margin.bottom;
 
